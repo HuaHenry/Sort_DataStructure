@@ -1,0 +1,14 @@
+<!-- index.wxml -->
+<view class="container">
+  <text class="titlext">输入至多7个数字</text>
+  <view class="input-row">
+    <input class="input-box" bindinput="handleInput" data-index="0"  />
+    <input class="input-box" bindinput="handleInput" data-index="1"  />
+    <input class="input-box" bindinput="handleInput" data-index="2"  />
+    <input class="input-box" bindinput="handleInput" data-index="3"  />
+    <input class="input-box" bindinput="handleInput" data-index="4"  />
+    <input class="input-box" bindinput="handleInput" data-index="5"  />
+    <input class="input-box" bindinput="handleInput" data-index="6"  />
+  </view>
+  <button class="btn" bindtap="handleButtonTap">进入排序</button>
+</view>

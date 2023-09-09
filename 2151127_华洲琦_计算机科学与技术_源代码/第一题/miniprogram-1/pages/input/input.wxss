@@ -1,0 +1,50 @@
+/* pages/input/input.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  /* background-color: #007aff; */
+}
+
+.input-row {
+  top:20rpx;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 12%;
+  height: 40px;
+  padding: 2 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #ccc;
+}
+
+.btn {
+  position: relative;
+  width: 250px;
+  height: 50px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlext{
+  position:fixed;
+  height:200rpx;
+  top:270rpx;
+  /* background-color: aqua; */
+  font-size:x-large;
+  font-weight: bolder;
+}

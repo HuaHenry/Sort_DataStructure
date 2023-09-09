@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/quickSort",
+    "pages/quickSort/quicksort",
+    "pages/bubbleSort/bubbleSort",
+    "pages/input/input",
+    "pages/chooseSort/chooseSort",
+    "pages/insertSort/insertSort",
+    "pages/binarySort/binarySort",
+    "pages/xierSort/xierSort",
+    "pages/aboutme/aboutme"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

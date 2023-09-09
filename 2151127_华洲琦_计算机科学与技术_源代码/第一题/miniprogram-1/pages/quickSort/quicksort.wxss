@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.chart {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 35px;
+  background-color: #007aff;
+  margin: 0 5px;
+  position: relative;
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.buttons {
+  position:relative;
+  top:80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #007aff;
+  color: white;
+  margin: 0 10px;
+}
+
+.triangle {
+  position: absolute;
+  bottom: -35rpx;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  text-align: center;
+  border-bottom: 13px solid rgb(173, 173, 173);
+}
+
+.triangle_2{
+  position: absolute;
+  bottom: -65rpx;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  text-align: center;
+  border-bottom: 13px solid rgb(173, 173, 173);
+}
+
+.triangle_down{
+  position: absolute;
+  bottom: -95rpx;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  text-align: center;
+  border-bottom: 13px solid rgb(255, 0, 0);
+}

@@ -1,0 +1,10 @@
+<!--pages/aboutme/aboutme.wxml-->
+<view class="t">
+  <text>
+  Author : Hua Zhouqi
+  Email : henryhua0721@foxmail.com \n
+  用途：同济大学数据结构课程设计作业
+  每种排序方法有多种实现方式，本程序只展示其中一种。如有算法错误/程序异常或更多的排序方法，欢迎通过上面提供的邮箱联系。
+  </text>
+</view>
+

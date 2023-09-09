@@ -1,0 +1,17 @@
+<!--pages/chooseSort/chooseSort.wxml-->
+<view class="container">
+  <view class="chart">
+    <block wx:for="{{numbers}}" wx:key="{{index}}">
+      <view class="bar" style="height: {{item.value * 35}}rpx; background: {{item.color}};">
+        <text class="label">{{item.value}}</text>
+        <view class="triangle" wx:if="{{index==nowIndexs}}"></view>
+        <view class="triangle_1" wx:if="{{index==chooseIndexs}}"></view>
+        <view class="triangle_3" wx:if="{{index==minIndexs}}"></view>
+      </view>
+    </block>
+  </view>
+  <view class="buttons">
+    <button class="button" bindtap="startAnimation" disabled="{{animationRunning}}">{{bttext}}</button>
+  </view>
+</view>
+

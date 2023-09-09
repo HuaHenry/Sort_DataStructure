@@ -1,0 +1,7 @@
+/* pages/aboutme/aboutme.wxss */
+
+.t{
+  /* background-color: aqua; */
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}

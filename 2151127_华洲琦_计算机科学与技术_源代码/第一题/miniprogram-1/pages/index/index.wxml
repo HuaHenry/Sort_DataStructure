@@ -1,0 +1,13 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="title">排序算法模拟</view>
+  <view class="button-group">
+    <button class="button" bindtap="navigateToinsertSort">直接插入排序</button>
+    <button class="button" bindtap="navigateTobinarySort">折半插入排序</button>
+    <button class="button" bindtap="navigateToxierSort">希尔排序</button>
+    <button class="button" bindtap="navigateToBubbleSort">冒泡排序</button>
+    <button class="button" bindtap="navigateToquickSort">快速排序</button>
+    <button class="button" bindtap="navigateTochooseSort">选择排序</button>
+  </view>
+  <text class="small-text" bindtap="goToAnotherPage">About me...</text>
+</view>

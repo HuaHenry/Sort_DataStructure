@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="chart">
+    <block wx:for="{{numbers}}" wx:key="{{index}}">
+      <view class="bar" style="height: {{item.value * 35}}rpx; background: {{item.color}};">
+        <text class="label">{{item.value}}</text>
+        <view class="triangle" wx:if="{{ (highlightIndex == index || highlightIndex == index - 1) && highlight == true}}"></view>
+      </view>
+    </block>
+  </view>
+  <view class="buttons">
+    <button class="button" bindtap="startAnimation" disabled="{{animationRunning}}">{{bttext}}</button>
+  </view>
+</view>
+
