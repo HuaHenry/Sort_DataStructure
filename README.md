@@ -23,3 +23,8 @@
 完成耗时 `2.5h`
 
 具体算法实现请查阅[设计文档](https://github.com/HuaHenry/Sort_DataStructure/blob/main/%E8%AE%BE%E8%AE%A1%E8%AF%B4%E6%98%8E%E4%B9%A6-release-0909.pdf)
+
+## 得分
+
+- `2023-8` 提交
+- `2023-9` 更新状态：拿了`优`，也许是报告写的比较好吧（毕竟代码只是一上午写出来的，报告写了一天...
